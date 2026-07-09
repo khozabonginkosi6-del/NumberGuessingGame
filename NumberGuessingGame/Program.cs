@@ -87,7 +87,7 @@
                     playAgain = Console.ReadLine();
                     playAgain = playAgain.ToUpper();
 
-                    if ((playAgain == "Y") || (playAgain == "N"))
+                    if ((playAgain == Decision.No.ToString()) || (playAgain == Decision.Yes.ToString()))
                     {
                         inputValid = true;
                     }

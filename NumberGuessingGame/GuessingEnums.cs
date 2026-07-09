@@ -11,4 +11,9 @@ namespace NumberGuessingGame
         TooLow,
         TooHigh
     }
+    internal enum Decision
+    {
+        Yes,
+        No
+    }
 }
